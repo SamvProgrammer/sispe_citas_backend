@@ -1,0 +1,184 @@
+c:\users\samv\documents\visual studio 2015\Projects\templatesPensiones\templatesPensiones\bin\roslyn\csc.exe
+c:\users\samv\documents\visual studio 2015\Projects\templatesPensiones\templatesPensiones\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\samv\documents\visual studio 2015\Projects\templatesPensiones\templatesPensiones\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\samv\documents\visual studio 2015\Projects\templatesPensiones\templatesPensiones\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\samv\documents\visual studio 2015\Projects\templatesPensiones\templatesPensiones\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\samv\documents\visual studio 2015\Projects\templatesPensiones\templatesPensiones\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\samv\documents\visual studio 2015\Projects\templatesPensiones\templatesPensiones\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\samv\documents\visual studio 2015\Projects\templatesPensiones\templatesPensiones\bin\roslyn\System.Collections.Immutable.dll
+c:\users\samv\documents\visual studio 2015\Projects\templatesPensiones\templatesPensiones\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\samv\documents\visual studio 2015\Projects\templatesPensiones\templatesPensiones\bin\roslyn\vbc.exe
+c:\users\samv\documents\visual studio 2015\Projects\templatesPensiones\templatesPensiones\bin\roslyn\VBCSCompiler.exe
+c:\users\samv\documents\visual studio 2015\Projects\templatesPensiones\templatesPensiones\bin\roslyn\VBCSCompiler.exe.config
+c:\users\samv\documents\visual studio 2015\Projects\templatesPensiones\templatesPensiones\bin\templatesPensiones.dll.config
+c:\users\samv\documents\visual studio 2015\Projects\templatesPensiones\templatesPensiones\bin\templatesPensiones.dll
+c:\users\samv\documents\visual studio 2015\Projects\templatesPensiones\templatesPensiones\bin\templatesPensiones.pdb
+c:\users\samv\documents\visual studio 2015\Projects\templatesPensiones\templatesPensiones\bin\Antlr3.Runtime.dll
+c:\users\samv\documents\visual studio 2015\Projects\templatesPensiones\templatesPensiones\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\samv\documents\visual studio 2015\Projects\templatesPensiones\templatesPensiones\bin\Microsoft.Web.Infrastructure.dll
+c:\users\samv\documents\visual studio 2015\Projects\templatesPensiones\templatesPensiones\bin\Newtonsoft.Json.dll
+c:\users\samv\documents\visual studio 2015\Projects\templatesPensiones\templatesPensiones\bin\System.Web.Helpers.dll
+c:\users\samv\documents\visual studio 2015\Projects\templatesPensiones\templatesPensiones\bin\System.Web.Mvc.dll
+c:\users\samv\documents\visual studio 2015\Projects\templatesPensiones\templatesPensiones\bin\System.Web.Optimization.dll
+c:\users\samv\documents\visual studio 2015\Projects\templatesPensiones\templatesPensiones\bin\System.Web.Razor.dll
+c:\users\samv\documents\visual studio 2015\Projects\templatesPensiones\templatesPensiones\bin\System.Web.WebPages.Deployment.dll
+c:\users\samv\documents\visual studio 2015\Projects\templatesPensiones\templatesPensiones\bin\System.Web.WebPages.dll
+c:\users\samv\documents\visual studio 2015\Projects\templatesPensiones\templatesPensiones\bin\System.Web.WebPages.Razor.dll
+c:\users\samv\documents\visual studio 2015\Projects\templatesPensiones\templatesPensiones\bin\WebGrease.dll
+c:\users\samv\documents\visual studio 2015\Projects\templatesPensiones\templatesPensiones\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\samv\documents\visual studio 2015\Projects\templatesPensiones\templatesPensiones\bin\System.Web.Helpers.xml
+c:\users\samv\documents\visual studio 2015\Projects\templatesPensiones\templatesPensiones\bin\System.Web.Mvc.xml
+c:\users\samv\documents\visual studio 2015\Projects\templatesPensiones\templatesPensiones\bin\System.Web.Optimization.xml
+c:\users\samv\documents\visual studio 2015\Projects\templatesPensiones\templatesPensiones\bin\System.Web.Razor.xml
+c:\users\samv\documents\visual studio 2015\Projects\templatesPensiones\templatesPensiones\bin\System.Web.WebPages.xml
+c:\users\samv\documents\visual studio 2015\Projects\templatesPensiones\templatesPensiones\bin\System.Web.WebPages.Deployment.xml
+c:\users\samv\documents\visual studio 2015\Projects\templatesPensiones\templatesPensiones\bin\System.Web.WebPages.Razor.xml
+c:\users\samv\documents\visual studio 2015\Projects\templatesPensiones\templatesPensiones\bin\Antlr3.Runtime.pdb
+c:\users\samv\documents\visual studio 2015\Projects\templatesPensiones\templatesPensiones\bin\Newtonsoft.Json.xml
+c:\users\samv\documents\visual studio 2015\Projects\templatesPensiones\templatesPensiones\obj\Debug\templatesPensiones.csprojResolveAssemblyReference.cache
+c:\users\samv\documents\visual studio 2015\Projects\templatesPensiones\templatesPensiones\obj\Debug\templatesPensiones.dll
+c:\users\samv\documents\visual studio 2015\Projects\templatesPensiones\templatesPensiones\obj\Debug\templatesPensiones.pdb
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\roslyn\csc.exe
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\roslyn\vbc.exe
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\roslyn\VBCSCompiler.exe
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\templatesPensiones.dll.config
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\templatesPensiones.dll
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\templatesPensiones.pdb
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\Antlr3.Runtime.dll
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\Newtonsoft.Json.dll
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\System.Web.Helpers.dll
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\System.Web.Mvc.dll
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\System.Web.Optimization.dll
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\System.Web.Razor.dll
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\System.Web.WebPages.Deployment.dll
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\System.Web.WebPages.dll
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\System.Web.WebPages.Razor.dll
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\WebGrease.dll
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\System.Web.Helpers.xml
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\System.Web.Mvc.xml
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\System.Web.Optimization.xml
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\System.Web.Razor.xml
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\System.Web.WebPages.xml
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\System.Web.WebPages.Deployment.xml
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\System.Web.WebPages.Razor.xml
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\Antlr3.Runtime.pdb
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\Newtonsoft.Json.xml
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\obj\Debug\templatesPensiones.dll
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\obj\Debug\templatesPensiones.pdb
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\Npgsql.dll
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\System.ValueTuple.dll
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\Npgsql.pdb
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\Npgsql.xml
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\System.ValueTuple.xml
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\obj\Debug\templatesPensiones.Properties.Resources.resources
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\obj\Debug\templatesPensiones.csproj.GenerateResource.Cache
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\obj\Debug\SISPE_MIGRACION.codigo.herramientas.forms.frmReporte.resources
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\obj\Debug\RdlCompile.cache
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\obj\Debug\RdlCompile.compiled
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\Microsoft.ReportViewer.WinForms.dll
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\Microsoft.SqlServer.Types.dll
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\Google.Apis.Auth.dll
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\Google.Apis.Auth.PlatformServices.dll
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\Google.Apis.Core.dll
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\Google.Apis.dll
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\Google.Apis.PlatformServices.dll
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\Google.Apis.pdb
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\Google.Apis.xml
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\Google.Apis.Auth.pdb
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\Google.Apis.Auth.xml
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\Google.Apis.Core.pdb
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\bin\Google.Apis.Core.xml
+C:\Users\samv\Documents\proyectos\OFICINA_PENSIONES\sispe_web\templatesPensiones\obj\Debug\templatesPensiones.csprojResolveAssemblyReference.cache
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\roslyn\csc.exe
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\roslyn\vbc.exe
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\roslyn\VBCSCompiler.exe
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\templatesPensiones.dll.config
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\templatesPensiones.dll
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\templatesPensiones.pdb
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\Antlr3.Runtime.dll
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\Google.Apis.Auth.dll
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\Google.Apis.Auth.PlatformServices.dll
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\Google.Apis.Core.dll
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\Google.Apis.dll
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\Google.Apis.PlatformServices.dll
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\Microsoft.ReportViewer.WinForms.dll
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\Newtonsoft.Json.dll
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\Npgsql.dll
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\System.ValueTuple.dll
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\System.Web.Helpers.dll
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\System.Web.Mvc.dll
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\System.Web.Optimization.dll
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\System.Web.Razor.dll
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\System.Web.WebPages.Deployment.dll
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\System.Web.WebPages.dll
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\System.Web.WebPages.Razor.dll
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\WebGrease.dll
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\Google.Apis.pdb
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\Google.Apis.xml
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\Google.Apis.Auth.pdb
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\Google.Apis.Auth.xml
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\Google.Apis.Core.pdb
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\Google.Apis.Core.xml
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\Newtonsoft.Json.xml
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\Npgsql.pdb
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\Npgsql.xml
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\System.ValueTuple.xml
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\System.Web.Helpers.xml
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\System.Web.Mvc.xml
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\System.Web.Optimization.xml
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\System.Web.Razor.xml
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\System.Web.WebPages.xml
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\System.Web.WebPages.Deployment.xml
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\System.Web.WebPages.Razor.xml
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\Antlr3.Runtime.pdb
+C:\Users\i7\Documents\sispe_web\templatesPensiones\obj\Debug\templatesPensiones.csprojResolveAssemblyReference.cache
+C:\Users\i7\Documents\sispe_web\templatesPensiones\obj\Debug\SISPE_MIGRACION.codigo.herramientas.forms.frmReporte.resources
+C:\Users\i7\Documents\sispe_web\templatesPensiones\obj\Debug\templatesPensiones.Properties.Resources.resources
+C:\Users\i7\Documents\sispe_web\templatesPensiones\obj\Debug\templatesPensiones.csproj.GenerateResource.Cache
+C:\Users\i7\Documents\sispe_web\templatesPensiones\obj\Debug\RdlCompile.cache
+C:\Users\i7\Documents\sispe_web\templatesPensiones\obj\Debug\RdlCompile.compiled
+C:\Users\i7\Documents\sispe_web\templatesPensiones\obj\Debug\templatesPensiones.dll
+C:\Users\i7\Documents\sispe_web\templatesPensiones\obj\Debug\templatesPensiones.pdb
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\DotNetDBF.dll

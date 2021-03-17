@@ -1,0 +1,677 @@
+﻿
+<style>
+    .colorletras {
+        font-size: x-large;
+        color: black;
+        font-weight: 500;
+    }
+
+    
+    .miestilo {
+        height: 50px;
+        cursor: pointer;
+    }
+
+    .estilo2 {
+        text-align: center;
+        width: 100%;
+    }
+</style>
+
+<link type="text/css" rel="stylesheet" href="waitMe.css">
+
+
+
+
+<div id="accordion">
+    <div class="card" id="container">
+        <div class="card-header" id="headingOne">
+            <div class="spinner-border"></div>
+            <h5 class="mb-0">
+                <button class="btn btn-link colorletras" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Seleccionar
+                </button>
+            </h5>
+        </div>
+
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body">
+                <form>
+                      <div class="form-row">
+                               
+                        <div class="form-group col-md-6">
+                            <label for="seleccionarea">Seleccionar Area</label>
+                            <select disabled onchange="seleccionarArea()" id="seleccionarea" class="form-control">
+                                <option selected>Seleccionar...</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputState">Seleccionar Trámite</label>
+                            <select id="inputsolicitud" class="form-control" disabled onchange="seleccionarTramite()">
+                                <option selected>Seleccionar...</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <button id="bottonprimero" onclick="traerDias()" disabled type="button" class="btn btn-primary" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Siguiente</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="card" id="containerCalendar">
+        <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+                <button class="btn btn-link collapsed  colorletras">
+                    Seleccionar fecha y hora
+                </button>
+            </h5>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body">
+                <div id="calendarioContenedor" class="calendar-container"></div>
+
+                <div id="alerta1" style="display:none" class="alert alert-warning" role="alert">Día y hora seleccionado: <strong> 27 julio 2020 a las 10:00pm </strong></div>
+
+                <button disabled id="botonSiguientefecha" type="button" class="btn btn-primary" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Continuar</button>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header" id="headingThree">
+            <h5 class="mb-0">
+                <button class="btn btn-link collapsed colorletras">
+                    Datos del solicitante
+                </button>
+            </h5>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+            <div class="card-body">
+                <form onsubmit="return false;">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="nombre">Nombre del solicitante</label>
+
+                            <input type="text" class="form-control" id="nombre" placeholder="Nombre" required>
+                            <div style="display:none" id="alertnombre" class="alert alert-danger" role="alert">
+                                Nombre del solicitante requerido...
+                            </div>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="apellido">Apellidos</label>
+                            <input type="text" class="form-control" id="apellido" placeholder="Apellidos" required>
+                            <div style="display:none" id="alertapellido" class="alert alert-danger" role="alert">
+                                Apellidos del solicitante requerido...
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="telefono">Teléfono</label>
+                        <input type="number" class="form-control" id="telefono" placeholder="Telefono" required>
+                        <div style="display:none" id="alerttelefono" class="alert alert-danger" role="alert">
+                            Teléfono del solicitante requerido...
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="correo">Correo electrónico</label>
+                        <input type="email" class="form-control" id="correo" placeholder="Correo" required>
+                        <div style="display:none" id="alertcorreo" class="alert alert-danger" role="alert">
+                            Correo electrónico requerido...
+                        </div>
+                    </div>
+
+                    <button formnovalidate onclick="previsualizacion()" class="btn btn-primary">Previsualización</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed colorletras">
+                                Previsualización
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseFour" class="collapse show" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="jumbotron">
+                                <label style="font-size: x-large;
+    font-weight: 600;">Nombre:<span style="color:#c14040" id="spannombre">Santiago Antonio mariscal velasquez</span></label>
+                                <p class="lead">Fecha y hora: <span id="spandia"></span> a las <span id="spanhora"></span> </p>
+                                <hr class="my-4">
+                                <p><strong>Area de atención:</strong> <span class="colorletra" id="spanarea">Prestaciones economicas.</span></p>
+                                <p><strong>Razón:</strong> <span class="colorletra" id="spansolicitud">Solicitud de prestamo quirografario.</span></p>
+                                <p><strong>Correo:</strong> <span class="colorletra" id="spancorreo">santiagoantoniomariscal@gmail.com.</span></p>
+                                <p class="lead">
+                                    <a class="btn btn-primary btn-lg" href="#" role="button" onclick="terminarSolicitud()">Terminar Solicitud</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+
+    </div>
+</div>
+
+@Scripts.Render("~/bundles/jquery")
+
+<style>
+    .colorletra {
+        color: #c14040;
+    }
+
+
+    @@media only screen and (max-width: 600px) {
+        #calendarioContenedor {
+            width: 100% !important;
+            height: 100% !important;
+            margin: auto !important;
+        }
+    }
+
+    #calendarioContenedor {
+        width: 50%;
+        height: 50%;
+        margin: auto;
+    }
+</style>
+
+
+<script>
+
+
+    $(document).ready(function () {
+
+
+        ///aqui modifique
+        var url = "/home/GeneraNomina?emplea=MMS&tiponomina=N" + selected;
+        var peticion = new XMLHttpRequest();
+        peticion.open("GET", url);
+        peticion.send();
+
+
+
+
+
+
+
+        //aqui termina
+
+
+        console.log("Se hace la peticion");
+        var url = "/home/getAreas";
+        var peticion = new XMLHttpRequest();
+        peticion.open("GET", url);
+        peticion.send();
+        peticion.onreadystatechange = function (evento) {
+            if (peticion.status == 200 && peticion.readyState == 4) {
+                var texto = peticion.responseText;
+                var objmanipular = JSON.parse(texto);
+
+                console.log(objmanipular);
+                var arrr = document.getElementById("seleccionarea");
+                arrr.disabled = false;
+                cerrando();
+                //showmostrarCalendario();
+
+
+                var seleccionarea = document.getElementById("seleccionarea");
+                for (var item of objmanipular) {
+                    console.log("hijo es ");
+                    console.log(item);
+                    var elementoOption = document.createElement("option");
+                    elementoOption.innerText = item.nombre;
+                    seleccionarea.appendChild(elementoOption);
+                    elementoOption.value = item.id;
+                }
+
+            }
+        }
+
+
+        showmostrar();
+    });
+
+
+
+
+
+
+    var seleccionarArea = function () {
+        var elemento1 = document.getElementById("seleccionarea");
+        var selected = elemento1.options[elemento1.selectedIndex].value;
+        console.log(selected);
+        // parametro a enviar  (selected)
+        var seleccionar2 = document.getElementById("inputsolicitud");
+        //seleccionar2.remove(seleccionar2.selectedIndex);
+
+        var seleccionar3 = document.getElementById("bottonprimero");
+        console.log(seleccionar3);
+        var valor = elemento1.value;
+        if ("Seleccionar..." != valor) {
+            seleccionar2.disabled = false;
+
+            showmostrar();
+
+            var url = "/home/getTramite?id_depto=" + selected;
+            var peticion = new XMLHttpRequest();
+            peticion.open("GET", url);
+            peticion.send();
+            peticion.onreadystatechange = function (evento) {
+                if (peticion.status == 200 && peticion.readyState == 4) {
+                    var texto = peticion.responseText;
+                    var objmanipular = JSON.parse(texto);
+
+                    console.log(objmanipular);
+
+
+
+                    var seleccionarea = document.getElementById("inputsolicitud");
+                    seleccionarea.innerHTML = "";
+                    seleccionarea.innerHTML = "<option selected>Seleccionar...</option>";
+
+
+                    for (var item of objmanipular) {
+                        var elementoOption = document.createElement("option");
+                        elementoOption.innerText = item.nombre;
+                        seleccionarea.appendChild(elementoOption);
+                        elementoOption.value = item.id;
+                    }
+
+                    cerrando();
+
+                }
+            }
+
+        } else {
+            seleccionar2.disabled = true;
+            seleccionar2.selectedIndex = 0;
+            seleccionar3.disabled = true;
+        }
+    }
+
+
+    var seleccionarTramite = function () {
+
+        var elemento1 = document.getElementById("inputsolicitud");
+        var dnombre_depto = document.getElementById("seleccionarea");
+        console.log("saca depto");
+        console.log(dnombre_depto);
+        var seleccionar2 = document.getElementById("bottonprimero");
+        var valor = elemento1.value;
+        console.log("si funcina");
+        if (valor != "Seleccionar...") {
+            seleccionar2.disabled = false;
+        } else {
+            seleccionar2.disabled = true;
+        }
+    }
+
+    var arregloFechas = [];
+
+    var traerDias = function () {
+        showmostrarCalendario();
+        var input1 = document.getElementById("seleccionarea").value;
+        var input2 = document.getElementById("inputsolicitud").value;
+
+
+
+        var url = "/home/getDiasDisponibles?id_depto=" + input1 + "&id_tramite=" + input2;
+
+        console.log("Si se hace esta peticion");
+        console.log(url);
+
+        var peticion = new XMLHttpRequest();
+        peticion.open("GET", url);
+        peticion.send();
+        peticion.onreadystatechange = function (evento) {
+            if (peticion.status == 200 && peticion.readyState == 4) {
+                var texto = peticion.responseText;
+                var objmanipular = JSON.parse(texto);
+                console.log(objmanipular);
+
+                arregloFechas = [];
+                for(var item of objmanipular) {
+                    var fechaFormateada = item["dia"].substring(item["dia"].indexOf("(") + 1, item["dia"].indexOf(")"));
+                    var obj1Fecha = {
+                        startDate: new Date(Number(fechaFormateada)).toDateString(),
+                        endDate: new Date(Number(fechaFormateada)).toISOString(),
+                        summary: "",
+                        hora: item["horas"]
+                    }
+                    arregloFechas.push(obj1Fecha);
+
+                   
+
+                }
+
+                cerrando();
+
+                console.log(arregloFechas);
+
+                $("#calendarioContenedor").simpleCalendar({
+                    fixedStartDay: false,
+                    disableEmptyDetails: true,
+                    events: arregloFechas
+
+                });
+
+
+            }
+        }
+
+
+    }
+
+
+    var wraper;
+    var prueba;
+    var date1;
+    var funcionaDate = function (etiqueta) {
+
+        prueba = etiqueta;
+
+        console.log("funcion date");
+        console.log(prueba);
+
+        var fechastring = etiqueta.firstElementChild.dataset.date;
+        date1 = new Date(fechastring);
+        var contador = 0;
+
+        var arregloHora;
+        for(var item of arregloFechas) {
+            var date2 = new Date(item.startDate);
+            if (date2.getDate() == date1.getDate() && (date1.getMonth() + 1) == (date2.getMonth() + 1)) {
+                arregloHora = arregloFechas[contador];
+            }
+
+            contador = contador + 1;
+        }
+
+        console.log(arregloHora);
+
+
+        if (etiqueta.getElementsByTagName("div")[0].className.includes("has-event")) {
+            wraper = document.getElementsByClassName("event-wrapper")[0];
+            console.log(wraper);
+            for(var item of arregloHora.hora) {
+
+
+
+
+                var event = document.createElement("div");
+                event.className = "event miestilo cerrarCustomize";
+                event.addEventListener("click", seleccionHora, false)
+
+                var eventohour = document.createElement("div");
+                eventohour.className = "event-hour estilo2";
+                eventohour.innerText = "Hora:" + item.hora;
+                event.appendChild(eventohour);
+
+
+
+                wraper.appendChild(event);
+
+
+            }
+
+        }
+
+        setTimeout(function () {
+            console.log("el utlimo");
+            var elementoultimo = document.getElementsByClassName("event-wrapper")[0];
+            elementoultimo.removeChild(elementoultimo.lastChild);
+        }, 1000);
+
+    }
+
+
+    var seleccionHora = function (elemento) {
+        console.log("Se selecciona la hora paps");
+        objEnviar.hora = elemento.path[0].innerText.replace("Hora:", "");
+        objEnviar.dia = date1;
+
+        console.log(objEnviar);
+        var alerta = document.getElementById("alerta1");
+        alerta.style.display = "block";
+        let options = {
+            weekday: 'long',
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+        };
+
+
+
+        alerta.getElementsByTagName("strong")[0].innerText = objEnviar.dia.toLocaleDateString('es-MX', options) + " a las " + objEnviar.hora;
+
+
+        document.getElementById("botonSiguientefecha").disabled = false;
+    }
+
+
+
+    var objEnviar = {
+        nombre: "",
+        apellido: "",
+        celular: "",
+        hora: "",
+        dia: "",
+        correo: "",
+        tramite: ""
+    }
+
+    var previsualizacion = function () {
+        var nombre = document.getElementById("nombre").value;
+        var apellido = document.getElementById("apellido").value;
+        var telefono = document.getElementById("telefono").value;
+        var correo = document.getElementById("correo").value;
+
+
+
+
+        var alertnombre = document.getElementById('alertnombre');
+        var alertapellido = document.getElementById('alertapellido');
+        var alerttelefono = document.getElementById('alerttelefono');
+        var alertcorreo = document.getElementById('alertcorreo');
+
+        alertnombre.style.display = "none";
+        alertapellido.style.display = "none";
+        alerttelefono.style.display = "none";
+        alertcorreo.style.display = "none";
+
+
+        var validados = true;
+
+        if (!document.getElementById('nombre').validity.valid) {
+            validados = false;
+            alertnombre.style.display = "block";
+        }
+        if (!document.getElementById('apellido').validity.valid) {
+            validados = false;
+            alertapellido.style.display = "block";
+        }
+        if (!document.getElementById('telefono').validity.valid) {
+            validados = false;
+            alerttelefono.style.display = "block";
+        }
+        if (!document.getElementById('correo').validity.valid) {
+            validados = false;
+            alertcorreo.style.display = "block";
+        }
+
+
+
+        if (!validados) {
+            Swal.fire({
+                icon: 'error',
+                title: 'Aviso',
+                text: 'Validar que los campos sean correctos o no esten vacíos!'
+            })
+            return;
+        }
+
+        objEnviar.nombre = nombre;
+        objEnviar.apellido = apellido;
+        objEnviar.celular = telefono;
+        objEnviar.correo = correo;
+
+
+        console.log("Datos de previsualización");
+        console.log(objEnviar);
+
+        var seleccionarea = document.getElementById("seleccionarea");
+        var inputsolicitud = document.getElementById("inputsolicitud");
+
+        var textoarea = seleccionarea.options[seleccionarea.selectedIndex].text
+        var textotramite = inputsolicitud.options[inputsolicitud.selectedIndex].text
+
+        objEnviar.tramite = textotramite;
+
+        var fecha = objEnviar.dia;
+        var options = { year: 'numeric', month: 'long', day: 'numeric' };
+
+        fecha.toLocaleDateString("es-ES", options)
+
+        document.getElementById("spannombre").innerText = objEnviar.nombre + " " + objEnviar.apellido;
+        document.getElementById("spandia").innerText = fecha.toLocaleDateString("es-ES", options);
+        document.getElementById("spanhora").innerText = objEnviar.hora;
+        document.getElementById("spanarea").innerText = textoarea;
+        document.getElementById("spansolicitud").innerText = textotramite;
+        document.getElementById("spancorreo").innerText = objEnviar.correo;
+
+
+        $("#myModal").modal();
+    }
+
+
+
+    var terminarSolicitud = function () {
+        $("#myModal").modal('hide');
+        showmostrarCalendario();
+
+        var objEnviarParseado = JSON.stringify(objEnviar);
+
+        var url = "/home/SubmitCita";
+        var peticion = new XMLHttpRequest();
+        peticion.open("POST", url);
+        peticion.setRequestHeader("content-type", "application/json");
+        peticion.send(objEnviarParseado);
+        peticion.onreadystatechange = function (evento) {
+            if (peticion.status == 200 && peticion.readyState == 4) {
+
+                cerrando();
+                document.location.href = "/?enviado=enviado"
+            } else {
+                
+
+                cerrando();
+
+                document.location.href = "/?enviado=error"
+               
+            }
+
+            console.log(evento);
+
+        }
+    }
+
+    var cerrando = function () {
+        var elemento = document.getElementsByClassName("waitMe");
+        for(var item of elemento) {
+            item.style.display = "none";
+        }
+    }
+
+    var showmostrar = function () {
+        $('#container').waitMe({
+            effect: 'progressBar',
+            text: '',
+            bg: 'rgba(255,255,255,0.7)',
+            color: '#3583ce',
+            maxSize: '',
+            waitTime: -1,
+            textPos: 'vertical',
+            fontSize: '',
+            source: '',
+            onClose: function () { }
+        });
+    }
+
+
+    var showmostrarCalendario = function () {
+        $('#containerCalendar').waitMe({
+            effect: 'progressBar',
+            text: '',
+            bg: 'rgba(255,255,255,0.7)',
+            color: '#3583ce',
+            maxSize: '',
+            waitTime: -1,
+            textPos: 'vertical',
+            fontSize: '',
+            source: '',
+            onClose: function () { }
+        });
+    }
+
+
+    var showmostrarCalendario = function () {
+        $('#accordion').waitMe({
+            effect: 'progressBar',
+            text: '',
+            bg: 'rgba(255,255,255,0.7)',
+            color: '#3583ce',
+            maxSize: '',
+            waitTime: -1,
+            textPos: 'vertical',
+            fontSize: '',
+            source: '',
+            onClose: function () { }
+        });
+    }
+</script>
+
+@if (ViewBag.enviado == "enviado")
+{
+    <script>
+        $(document).ready(function () {
+            Swal.fire(
+'Solicitud correcta!',
+'Se ha enviado un correo electrónico de la cita.',
+'success'
+)
+        });
+    </script>
+
+}
+
+
+@if (ViewBag.enviado == "error")
+{
+<script>
+    $(document).ready(function () {
+        Swal.fire(
+    'Cita ya ocupada!',
+    'La cita ya se encuentra ocupada.',
+    'error'
+    )
+    });
+</script>
+
+}
