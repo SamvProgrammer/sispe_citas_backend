@@ -182,3 +182,5 @@ C:\Users\i7\Documents\sispe_web\templatesPensiones\obj\Debug\RdlCompile.compiled
 C:\Users\i7\Documents\sispe_web\templatesPensiones\obj\Debug\templatesPensiones.dll
 C:\Users\i7\Documents\sispe_web\templatesPensiones\obj\Debug\templatesPensiones.pdb
 C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\DotNetDBF.dll
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\ExcelDataReader.DataSet.dll
+C:\Users\i7\Documents\sispe_web\templatesPensiones\bin\ExcelDataReader.dll

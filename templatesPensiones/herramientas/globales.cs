@@ -43,6 +43,38 @@ namespace templatesPensiones.herramientas
 
 
 
+        public static int convertInt(string numero)
+        {
+            string strNumero = (string.IsNullOrWhiteSpace(numero)) ? "0" : numero;
+            int numeroaux = 0;
+            try
+            {
+                numeroaux = int.Parse(strNumero, System.Globalization.NumberStyles.Currency);
+            }
+            catch
+            {
+                numeroaux = 0;
+            }
+            return numeroaux;
+        }
+        public static double convtDouble(string numero)
+        {
+            string strNumero = (string.IsNullOrWhiteSpace(numero)) ? "0" : numero;
+            double dblNumero = 0;
+            try
+            {
+                dblNumero = double.Parse(strNumero, System.Globalization.NumberStyles.Currency);
+            }
+            catch
+            {
+                dblNumero = 0;
+            }
+            return dblNumero;
+        }
+
+
+
+
         public static byte[] reportes(string nombreReporte, string tablaDataSet, object[] objeto, string mensaje = "", bool imprimir = false, object[] parametros = null, bool espdf = false, string nombrePdf = "", string subcarpeta = "")
 
         {
@@ -64,5 +96,8 @@ namespace templatesPensiones.herramientas
 
             return Convert.ToString(res[0]["numeltra"]);
         }
+
+
+
     }
 }

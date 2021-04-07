@@ -52,6 +52,26 @@
             </xs:sequence>
           </xs:complexType>
         </xs:element>
+        <xs:element name="sobres" msprop:Generator_TableClassName="sobresDataTable" msprop:Generator_TableVarName="tablesobres" msprop:Generator_RowChangedName="sobresRowChanged" msprop:Generator_TablePropName="sobres" msprop:Generator_RowDeletingName="sobresRowDeleting" msprop:Generator_RowChangingName="sobresRowChanging" msprop:Generator_RowEvHandlerName="sobresRowChangeEventHandler" msprop:Generator_RowDeletedName="sobresRowDeleted" msprop:Generator_RowClassName="sobresRow" msprop:Generator_UserTableName="sobres" msprop:Generator_RowEvArgName="sobresRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nombre" msprop:Generator_ColumnVarNameInTable="columnnombre" msprop:Generator_ColumnPropNameInRow="nombre" msprop:Generator_ColumnPropNameInTable="nombreColumn" msprop:Generator_UserColumnName="nombre" type="xs:string" minOccurs="0" />
+              <xs:element name="categoria" msprop:Generator_ColumnVarNameInTable="columncategoria" msprop:Generator_ColumnPropNameInRow="categoria" msprop:Generator_ColumnPropNameInTable="categoriaColumn" msprop:Generator_UserColumnName="categoria" type="xs:string" minOccurs="0" />
+              <xs:element name="rfc" msprop:Generator_ColumnVarNameInTable="columnrfc" msprop:Generator_ColumnPropNameInRow="rfc" msprop:Generator_ColumnPropNameInTable="rfcColumn" msprop:Generator_UserColumnName="rfc" type="xs:string" minOccurs="0" />
+              <xs:element name="periodo" msprop:Generator_ColumnVarNameInTable="columnperiodo" msprop:Generator_ColumnPropNameInRow="periodo" msprop:Generator_ColumnPropNameInTable="periodoColumn" msprop:Generator_UserColumnName="periodo" type="xs:string" minOccurs="0" />
+              <xs:element name="claveper" msprop:Generator_ColumnVarNameInTable="columnclaveper" msprop:Generator_ColumnPropNameInRow="claveper" msprop:Generator_ColumnPropNameInTable="claveperColumn" msprop:Generator_UserColumnName="claveper" type="xs:string" minOccurs="0" />
+              <xs:element name="descper" msprop:Generator_ColumnVarNameInTable="columndescper" msprop:Generator_ColumnPropNameInRow="descper" msprop:Generator_ColumnPropNameInTable="descperColumn" msprop:Generator_UserColumnName="descper" type="xs:string" minOccurs="0" />
+              <xs:element name="claveded" msprop:Generator_ColumnVarNameInTable="columnclaveded" msprop:Generator_ColumnPropNameInRow="claveded" msprop:Generator_ColumnPropNameInTable="clavededColumn" msprop:Generator_UserColumnName="claveded" type="xs:string" minOccurs="0" />
+              <xs:element name="descded" msprop:Generator_ColumnVarNameInTable="columndescded" msprop:Generator_ColumnPropNameInRow="descded" msprop:Generator_ColumnPropNameInTable="descdedColumn" msprop:Generator_UserColumnName="descded" type="xs:string" minOccurs="0" />
+              <xs:element name="montoper" msprop:Generator_ColumnVarNameInTable="columnmontoper" msprop:Generator_ColumnPropNameInRow="montoper" msprop:Generator_ColumnPropNameInTable="montoperColumn" msprop:Generator_UserColumnName="montoper" type="xs:string" minOccurs="0" />
+              <xs:element name="montoded" msprop:Generator_ColumnVarNameInTable="columnmontoded" msprop:Generator_ColumnPropNameInRow="montoded" msprop:Generator_ColumnPropNameInTable="montodedColumn" msprop:Generator_UserColumnName="montoded" type="xs:string" minOccurs="0" />
+              <xs:element name="totded" msprop:Generator_ColumnVarNameInTable="columntotded" msprop:Generator_ColumnPropNameInRow="totded" msprop:Generator_ColumnPropNameInTable="totdedColumn" msprop:Generator_UserColumnName="totded" type="xs:string" minOccurs="0" />
+              <xs:element name="totper" msprop:Generator_ColumnVarNameInTable="columntotper" msprop:Generator_ColumnPropNameInRow="totper" msprop:Generator_ColumnPropNameInTable="totperColumn" msprop:Generator_UserColumnName="totper" type="xs:string" minOccurs="0" />
+              <xs:element name="liquido" msprop:Generator_ColumnVarNameInTable="columnliquido" msprop:Generator_ColumnPropNameInRow="liquido" msprop:Generator_ColumnPropNameInTable="liquidoColumn" msprop:Generator_UserColumnName="liquido" type="xs:string" minOccurs="0" />
+              <xs:element name="npagos" msprop:Generator_ColumnVarNameInTable="columnnpagos" msprop:Generator_ColumnPropNameInRow="npagos" msprop:Generator_ColumnPropNameInTable="npagosColumn" msprop:Generator_UserColumnName="npagos" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
       </xs:choice>
     </xs:complexType>
   </xs:element>
